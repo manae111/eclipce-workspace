@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>数値を2つ受け取り足し算した結果を返すプログラム</title>
+</head>
+<body>
+	<h2>数値を入力してください</h2>
+    <form action="/UseMyclassServlet1mapping" method="get">
+        <label for="num1">数値1:</label>
+        <input type="text" id="num1" name="num1" required>
+        
+        <label for="num2">数値2:</label>
+        <input type="text" id="num2" name="num2" required>
+
+        <input type="submit" value="計算">
+    </form>
+</body>
+</html>
